@@ -1,0 +1,79 @@
+*{
+    font-family: Outfit;
+    font-size: 12px;
+    line-height: 1.8;
+    color:hsl(24, 5%, 18%);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 14px;
+    max-width: 375px;
+}
+
+.prep-card{
+    background-color: hsl(330, 100%, 98%);
+    padding: 0px 20px;
+    border-radius: 14px;
+}
+
+.prep-card h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 14px;
+}
+
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+    font-family: Young Serif;
+}
+h1{
+    font-size: 24px;
+    font-family: Young Serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+hr{
+    margin: 10px;
+    border: 0.5px solid hsl(30, 18%, 87%);
+}
+
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+tr td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 10px 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
